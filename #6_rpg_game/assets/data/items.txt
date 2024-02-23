@@ -1,0 +1,52 @@
+[SurfaceSheet]
+item/items.png
+#
+[AmountEntity]
+4
+#
+[InitAnimation]
+{srcPos}
+48.0 0.0|72.0 0.0|96 0.0|120.0 0.0||
+{srcDimens}
+24.0 24.0
+{frame}
+1 1 1 1  
+{holdTime}
+0.1 0.1 0.1 0.1  
+#
+
+
+[Name_Items]
+Cream Cake
+Heart Buffer
+Power Buffer
+Armor Buffer
+#
+
+
+//Info item id 0 - 3
+[Info_Items]
+Add +100HP, MP into current HP, MP.
+Gonna cry? dirty in your eyes
+Get out away!
+Pizza time
+
+
+
+It's mobius time|
++100% into maximum HP during 2 minutes.|
++150% attack during 2 minutes.|
++50% armor during 2 minutes.|#|
+//Info item id 4 - 10
+[Info_Items]
+#|
+
+
+[CostSell_Items]
+10 50 50 50  
+[Effects_Items]
+5:100 10:100  
+0:20 9:100  
+0:120 4:150  
+0:20 18:50  
+#

@@ -1,0 +1,16 @@
+[SurfaceSheet]
+char/tie_action.png
+#
+[AmountEntity]
+4
+#
+[InitAnimation]
+{srcPos}
+0.0 0.0|32.0 0.0|64.0 0.0|96.0 0.0||
+{srcDimens}
+32.0 32.0 
+{frame}
+1 1 1 1  
+{holdTime}
+0.16 0.16 0.16 0.16  
+#

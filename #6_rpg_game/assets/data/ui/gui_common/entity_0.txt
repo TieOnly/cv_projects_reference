@@ -1,0 +1,17 @@
+[SurfaceSheet]
+ui/tables.png
+#
+//Area_Notify_Vert, Area_Notify_Vert, Button_0, Button_1, Button_SLT
+[AmountEntity]
+5
+#
+[InitAnimation]
+{srcPos}
+256.0 0.0|256.0 96.0|215.0 8.0|215.0 20.0|38.0 6.0||
+{srcDimens_list}
+74.0 95.0|136.0 58.0|24.0 12.0|24.0 12.0|24.0 12.0||
+{frame}
+1 1 1 1 1  
+{holdTime}
+0.1 0.1 0.1 0.1 0.1  
+#

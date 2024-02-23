@@ -1,0 +1,57 @@
+[SurfaceSheet]
+ui/tables.png
+#
+//Cell_Lk = 0, Cell_ULK, Cell_SLT, Btn_Surf
+[AmountEntity]
+4
+#
+[InitAnimation]
+{srcPos}
+144.0 8.0|167.0 8.0|191.0 8.0|215.0 20.0||
+{srcDimens_list}
+24.0 24.0|24.0 24.0|24.0 24.0|24.0 12.0||
+{frame}
+1 1 1 1  
+{holdTime}
+0.1 0.1 0.1 0.1  
+#
+
+[Boundary_Frame]//
+210.0 488.0 176.0 362.0  
+
+[Scale]
+2
+
+[Boundary_Dimens]
+139.0 93.0
+
+[Padding_Corner_Vs_PosMainTable]
+8.0 13.0
+
+//[Element_Size]
+24.0
+
+[Element_Margin]
+-1.0
+
+//Select == SeqID::Cell_SLT
+[Element_Select_Surface_ID]
+2
+
+[Area_Description_Init]
+{Dimension}
+100.0 63.0
+#
+
+[Area_Action]
+{Button_Name}
+Use Remove  
+{Button_Scale}
+3
+{Padding_Hori}
+26.0
+{Padding_Vert}
+30.0
+#
+
+##

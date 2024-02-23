@@ -1,0 +1,8 @@
+
+FPS = 60
+WIDTH = 500
+HEIGHT = 300
+SCALE = 1.0
+
+HOST = '127.0.0.1'
+PORT = 3333

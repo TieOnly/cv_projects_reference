@@ -1,0 +1,16 @@
+[SurfaceSheet]
+eff/effChar/effects.png
+#
+[AmountEntity]
+2
+#
+[InitAnimation]
+{srcPos}
+0.0 0.0|96.0 0.0||
+{srcDimens}
+32.0 32.0 
+{frame}
+3 2  
+{holdTime}
+0.16 0.16  
+#

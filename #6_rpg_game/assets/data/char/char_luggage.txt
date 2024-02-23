@@ -1,0 +1,12 @@
+[Amount_Cell]
+30
+[Amount_Item]
+4
+[Items_ID_EachOfThem]
+0 1 2 3  
+[Items_Amount_EachOfThem]
+100 10 1 2  
+[Items_Order_EachOfThem]
+0 1 4 2  
+[Items_IsLocked_EachOfThem]
+1 0 1 0  

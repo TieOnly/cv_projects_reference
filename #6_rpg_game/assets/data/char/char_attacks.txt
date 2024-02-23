@@ -1,0 +1,17 @@
+[SurfaceSheet]
+char/tie_attack.png
+#
+[AmountEntity]
+4
+#
+[InitAnimation]
+{srcPos}
+0.0 128.0|0.0 160.0|
+0.0 64.0|0.0 96.0||
+{srcDimens}
+32.0 32.0 
+{frame}
+6 6 6 6  
+{holdTime}
+0.05 0.05 0.05 0.05  
+#

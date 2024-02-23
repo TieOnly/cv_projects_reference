@@ -1,0 +1,2 @@
+default:
+	g++ ../src/*.cpp ../src/GUI/*.cpp ../src/utils/*.cpp ../src/Character/*.cpp -o Game.exe -Wall -Wno-missing-braces -I ../build/PCH -I ../include -I ../include/GUI -I ../include/utils -L ../lib -lraylib -lopengl32 -lgdi32 -lwinmm

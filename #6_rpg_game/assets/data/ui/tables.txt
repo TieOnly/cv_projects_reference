@@ -1,0 +1,46 @@
+[SurfaceSheet]
+ui/tables.png
+#
+//Main_table, Front_Tab, Behind_Tab, Close_Btn
+[AmountEntity]
+4
+#
+[InitAnimation]
+{srcPos}
+0.0 32.0|64.0 0.0|0.0 6.0|38.0 18.0||
+{srcDimens_list}
+256.0 130.0|68.0 32.0|38.0 26.0|20.0 14.0||
+{frame}
+1 1 1 1  
+{holdTime}
+0.1 0.1 0.1 0.1  
+#
+
+[Amount_Tab]
+4
+
+[Scale]
+2
+
+//[Seq_Dimens]
+256.0 130.0|
+68.0 32.0|
+38.0 26.0|38.0 26.0|38.0 26.0|
+20.0 14.0||
+
+//[Seq_Pos_Default]
+0.0 200.0|
+0.0 90.0|
+0.0 102.0|0.0 102.0|0.0 102.0|
+0.0 126.0||
+
+[PosY_MainTable]
+150.0f
+
+[Distance_Match_Tabs_With_MainTable]
+2.0
+
+[Tab_Names]
+Ruong|Ky Nang|Noi Tai|Chi So||
+
+##

@@ -1,0 +1,33 @@
+[SurfaceSheet]
+ui/pick_skill.png
+#
+[AmountEntity]
+8
+#
+[InitAnimation]
+{srcPos}
+0.0 0.0|24.0 0.0|48.0 0.0|72.0 0.0|96.0 0.0|120.0 0.0|
+0.0 24.0|24.0 24.0||
+{srcDimens}
+24.0 24.0 
+{frame}
+1 1 1 1 1 1 1 1  
+{holdTime}
+0.16 0.16 0.16 0.16 0.16 0.16 0.16 0.16  
+#
+
+[Pos_Origin]
+20.0 440.0 
+
+[Cell_Dimens]
+48.0 48.0 
+
+[Cell_Content_Dimens]
+32.0 34.0 
+
+[Cell_Padding]
+4.0
+
+[Id_Cell]
+5
+##
