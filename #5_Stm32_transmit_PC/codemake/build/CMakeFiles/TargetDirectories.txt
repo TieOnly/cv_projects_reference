@@ -1,0 +1,3 @@
+F:/Admin/Ky6/KTVXL/BTL/codemake/build/CMakeFiles/stm32_cpp.dir
+F:/Admin/Ky6/KTVXL/BTL/codemake/build/CMakeFiles/edit_cache.dir
+F:/Admin/Ky6/KTVXL/BTL/codemake/build/CMakeFiles/rebuild_cache.dir

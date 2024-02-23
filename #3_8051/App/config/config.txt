@@ -1,0 +1,10 @@
+[AmountKey]
+10
+[P1]
+{LeftControl}
+A|W|D|S||
+{MidControl}
+R|E||
+{RightControl}
+H|J|K|L||
+#

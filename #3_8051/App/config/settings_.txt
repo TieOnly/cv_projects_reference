@@ -1,0 +1,36 @@
+[FPS]
+60
+[Scale]
+3.0
+[Scale_Element]
+3.0
+[WidthDef]
+390
+[RateWidth]
+2
+[RateHeight]
+1
+
+[PosElementTable]
+{lable_player1}
+220 10
+{lable_player2}
+806 10
+{label_gamepad}
+10 90 
+{label_box}
+300 360
+{label_message}
+300 400
+{label_keys}
+55 183|91 153|130 183|91 210|244 192|301 192|415 174|490 126|496 189|421 237||
+{btn_load}
+80 400
+{btn_save}
+80 480
+{btns_load}
+320 420|420 420|520 420|860 480||
+#
+
+[ListKeysTable]
+config/bo1.txt

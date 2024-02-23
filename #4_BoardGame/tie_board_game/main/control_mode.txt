@@ -1,0 +1,8 @@
+==========CMD button control system============
+				
+ [AllMode] Change Mode           --> UP + DN 	      
+ [AllMode] Bright                --> LT + RT 
+ [AllMode] Enable/Disable Buzzer --> LT + UP 
+ [AllMode] Change Text Scroll    --> UP + RT 
+ [ScrollMode] Change Theme       --> DN + RT 
+===============================================

@@ -1,0 +1,85 @@
+#include <8052.h>
+#include <8051_redefine.h>
+#include <stdint.h>
+
+#define bitset(reg, bit) 		(reg |= (1 << bit))
+#define bitclear(reg, bit)		(reg &= ~(1 << bit))
+#define bitread(reg, bit)		(1 & (reg >> bit))
+#define bitwrite(reg, bit, val)	( val ? bitset(reg, bit) : bitclear(reg, bit) )
+#define bittoggle(reg, bit)		( bitwrite(reg, bit, !bitread(reg, bit)) )
+
+extern uint8_t dtime = 0;
+
+void delay(uint16_t ms);
+void delay(uint16_t ms)
+{
+	uint16_t i;
+	for( i = 0; i < ms; i++ )
+	{
+		TR0 = 0;
+		TH0 = 0xFC;
+		TL0 = 0x18;
+		TR0 = 1;
+		while( !TF0 ) { }
+	}
+}
+
+void timer0_init();
+void timer0_update();
+
+void timer0_init()
+{
+	TMOD &= ~0xF0;
+	TMOD |= (1 << 0);
+
+	TR0 = 0;
+	TH0 = 0x00;
+	TL0 = 0x00;
+	TR0 = 1;
+}
+void timer0_update()
+{
+	dtime = 0;
+	if( TH0 >= 0x03 && TL0 >= 0xE8 )
+	{
+		TR0 = 0;
+		TH0 %= 0x03;
+		TL0 %= 0xE8;
+		TR0 = 1;
+		dtime = 1;
+	}
+}
+
+uint16_t count_500  = 0;
+uint16_t count_1000 = 0;
+uint16_t count_2000 = 0;
+
+
+void main(void)
+{
+	timer0_init();
+	P1 = 0x07;
+	while(1)
+	{	
+		timer0_update();
+		count_500 += dtime;
+		count_1000+= dtime;  
+		count_2000+= dtime;  
+
+		if( count_500 >= 500 )
+		{
+			count_500 %= 500;
+			bittoggle(P1, 0);
+		}
+		if( count_1000 >= 1000 )
+		{
+			count_1000 %= 1000;
+			bittoggle(P1, 1);
+		}
+		if( count_2000 >= 2000 )
+		{
+			count_2000 %= 2000;
+			bittoggle(P1, 2);
+		}
+	}
+}
