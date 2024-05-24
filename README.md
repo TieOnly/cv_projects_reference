@@ -7,3 +7,4 @@
   + Programming driver for sensors, devices in embedded system
   + Network, Image process
   + Graphics, Game
+  + FPGA programming using Verilog
