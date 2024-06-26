@@ -8,3 +8,4 @@
   + Network, Image process
   + Graphics, Game
   + FPGA programming using Verilog
+  + Kernel module for embedded systems base on Linux
