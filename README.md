@@ -1,5 +1,5 @@
 # cv_projects_reference
-  Projects built primarily with C, C++, Python programming languages and related build and development tools
+  Projects built primarily with C, C++, Python programming languages and related build, development tools
 
 ## Includes content:
   + Firmware for embedded system
